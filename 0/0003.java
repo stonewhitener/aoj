@@ -1,0 +1,1 @@
+import java.util.Scanner;public class Main{public static void main(String[]args){Scanner s=new Scanner(System.in);int n=s.nextInt();for(int i=1;i<=n;i++){int a=(int)Math.pow(s.nextInt(),2);int b=(int)Math.pow(s.nextInt(),2);int c=(int)Math.pow(s.nextInt(),2);if(a==b+c||b==a+c||c==a+b)System.out.println("YES");else System.out.println("NO");}}}
