@@ -16,5 +16,5 @@ while True:
     except EOFError:
         break
 
-print(sum([1 for i in range(10) for j in range(10) if paper[j][i] == 0]))
+print(len([density for p in paper for density in p if density == 0]))
 print(max([max(p) for p in paper]))
